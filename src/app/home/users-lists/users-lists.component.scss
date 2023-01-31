@@ -1,0 +1,16 @@
+ul{
+  display: flex;
+  list-style: none;
+  gap: 5px;
+  text-transform: capitalize;
+.userList{
+  background-color: black;
+  padding: 8px 16px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover{
+    opacity: 0.8;
+  }
+}
+}

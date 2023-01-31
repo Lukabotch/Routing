@@ -1,0 +1,11 @@
+<ng-container *ngIf="users; else elseBlock">
+  <div>
+    <p>Fullname: {{ users.firstName + " " + users.lastName }}</p>
+    <p>Nickname: {{ users.username }}</p>
+    <p>{{ users.aboutMe }}</p>
+  </div>
+</ng-container>
+<ng-template #elseBlock>
+  <h3>User Not Found</h3>
+</ng-template>
+

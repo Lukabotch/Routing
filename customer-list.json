@@ -1,0 +1,24 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "username": "bazera"
+    },
+    {
+      "id": 2,
+      "username": "bazera2"
+    },
+    {
+      "id": 3,
+      "username": "bazera3"
+    },
+    {
+      "id": 4,
+      "username": "bazera4"
+    },
+    {
+      "id": 5,
+      "username": "bazera5"
+    }
+  ]
+}
